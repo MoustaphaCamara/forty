@@ -1,0 +1,76 @@
+/* 
+MEDIAQUERIES
+*/
+
+@media screen and (max-width:$phone) {
+    .icon_container {
+        display: flex;
+    }
+    .icon_container ul {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+    }
+    #first_container, #second_container, #third_container {
+        display: block;
+        .left_part, .right_part {
+            width: 100% !important;
+        }
+    }
+}
+@media screen and (max-width:$tablet) {
+    #first_container .left_part, #third_container .left_part, #second_container .right_part {
+        width: 50%;
+    }
+    #first_container .right_part, #third_container .right_part, #second_container .left_part {
+    width: 50%;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+
+
+}
+@media screen and (min-width:$tablet) {
+    h1, h2 {
+        @include underline();
+        }
+    }
+@media screen and (max-width:$laptop) {
+    .contact_container {
+        display: block;
+        .contact_right, .contact_left {
+            width: 100%;
+        }
+        .email_part, .phone_part, .address_part {
+            align-items: center;
+        }
+    }
+    .contact_right p {
+        font-size: 0.8rem;
+    }
+
+    // SECTION1 MEDIAQUERIES
+    #first_container .left_part, #third_container .left_part, #second_container .right_part {
+        width: 50%;
+    }
+    // EO SECTION1 MEDIAQUERIES
+
+    // SECTION3 MEDIAQUERIES
+    .who {
+        display: block;
+    }
+    .mail_container {
+        padding-left: 0;
+    }
+    // EO SECTION3 MEDIAQUERIES
+    h2 {
+        width: auto;
+    }
+}
+@media screen and (max-width:$desktop) {
+ 
+}
+/* 
+EO MEDIAQUERIES
+*/

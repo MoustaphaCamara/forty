@@ -1,0 +1,81 @@
+/* 
+SECTION3
+*/
+#section3, footer {
+    background: $colorfooter;
+}
+#section3 {
+    display: flex;
+    width: 100%;
+}
+.contact_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact_left {
+    width: 70%;
+    padding-left: 30px;
+    @include borders();
+}
+.contact_right {
+    width: 30%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 50px;
+}
+input, textarea {
+    background: $color2;
+    border: none;
+    resize: none;
+    margin: 20px 0;
+    height: 50px;
+}
+textarea {
+    height: 200px;
+}
+input[type=button] {
+    height: 60px;
+    width: 170px;
+    min-width: 170px;
+}
+.who {
+    display: flex;
+}
+.name_container, .mail_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.mail_container {
+    padding-left: 15px;
+}
+.button_container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+#name, #mail {
+    width: 80%;
+}
+.email_part, .phone_part, .address_part {
+   height: 200px;
+   width: 100%;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   gap: 30px;
+   @include borders();
+
+}
+/* 
+EO SECTION3
+*/

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <title>Carter IV</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTAWESOME ICONS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <!-- BURGER -->
+        <div class="burger"></div>
+
+        <div class="burger_container">
+          <div class="burger_menu">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#section1">Articles</a>
+              </li>
+              <li>
+                <a href="#section2">Other info</a>
+              </li>
+              <li>
+                <a href="#section3">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- EO BURGER -->
+      </nav>
+      <div class="welcome_container">
+        <h1>Welcome to Project CarterIV</h1>
+        <span class="welcome">
+          <h3>
+            Un projet responsive en HTML, CSS, SASS, JS créé dans le but de
+            m'exercer sur ces technos.
+          </h3>
+          <button class="btn btn_dark">
+            <a href="#section1">get started </a>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </span>
+      </div>
+    </header>
+    <!-- SECTION 1 -->
+    <section id="section1">
+      <!-- 1ERE PARTIE -->
+      <div id="first_container">
+        <!-- CONTAINER -->
+        <div class="left_part">
+          <div class="picture">
+            <h2>Aliquam</h2>
+            <h3>ipsum dolor sit amet</h3>
+          </div>
+        </div>
+
+        <div class="right_part">
+          <div class="picture">
+            <h2>Tempus</h2>
+            <h3>feugiat amet tempus</h3>
+          </div>
+        </div>
+        <!-- FIN CONTAINER -->
+      </div>
+      <!-- 2EME PARTIE -->
+      <div id="second_container">
+        <!-- CONTAINER -->
+        <div class="left_part">
+          <div class="picture">
+            <h2>Aliquam</h2>
+            <h3>ipsum dolor sit amet</h3>
+          </div>
+        </div>
+
+        <div class="right_part">
+          <div class="picture">
+            <h2>Tempus</h2>
+            <h3>feugiat amet tempus</h3>
+          </div>
+        </div>
+        <!-- FIN CONTAINER -->
+      </div>
+
+      <!-- 3EME PARTIE -->
+      <div id="third_container">
+        <!-- CONTAINER -->
+        <div class="left_part">
+          <div class="picture">
+            <h2>Aliquam</h2>
+            <h3>ipsum dolor sit amet</h3>
+          </div>
+        </div>
+
+        <div class="right_part">
+          <div class="picture">
+            <h2>Tempus</h2>
+            <h3>feugiat amet tempus</h3>
+          </div>
+        </div>
+        <!-- FIN CONTAINER -->
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+
+    <section id="section2">
+      <div class="section_container">
+        <h2>Massa libero</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          deserunt! Quibusdam temporibus natus saepe commodi sunt ipsa dolorem
+          quod soluta quis ab repudiandae ea, delectus expedita error fugiat
+          quisquam odit odio corporis, voluptatum inventore! Rem voluptatem
+          repellendus dolore accusantium, id eos corporis amet, sapiente, alias
+          voluptates assumenda quae reiciendis asperiores.
+        </p>
+        <button class="btn btn_dark">
+          <a href="#section3">
+            get started <i class="fa-solid fa-arrow-right-long"></i
+          ></a>
+        </button>
+      </div>
+    </section>
+    <!-- SECTION 3 -->
+    <section id="section3">
+      <div class="contact_container">
+        <div class="contact_left">
+          <form action="submit">
+            <div class="who">
+              <div class="name_container">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="mail_container">
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" />
+              </div>
+            </div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="40"
+              rows="10"
+            ></textarea>
+            <div class="button_container">
+              <input type="button" value="send message" class="btn btn_light" />
+              <input type="button" value="clear" class="btn btn_dark" />
+            </div>
+          </form>
+        </div>
+
+        <div class="contact_right">
+          <div class="email_part">
+            <!-- icone insérer-->
+            <h4><i class="fa-solid fa-at"></i> Email</h4>
+            <p>contact@moustaphacamara.fr</p>
+          </div>
+          <div class="phone_part">
+            <!-- icone insérer-->
+            <h4><i class="fa-solid fa-phone"></i> Phone</h4>
+            <p>(000) 000-0000 12356</p>
+          </div>
+          <div class="address_part">
+            <!-- icone insérer-->
+            <h4><i class="fa-solid fa-house"></i> Address</h4>
+            <p>
+              1234 Avenue Quelquepart <br />
+              Lyon, 69000 <br />
+              France
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="icon_container">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright_container">
+        <p>© MC 2022</p>
+        <p>
+          Maquette inspirée de
+          <a href="https://html5up.net/forty">HTML5UP - Forty</a>
+        </p>
+        <p>
+          Images : <a href="https://picsum.photos/">Lorem Picsum</a> &
+          <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

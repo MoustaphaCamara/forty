@@ -1,0 +1,75 @@
+/* 
+RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    // general
+    font-family: "Century Gothic","Trebuchet MS";
+    color: white;
+    transition: 0.2s ease;
+    scroll-behavior: smooth;
+    // DEBUG
+    // border: 1px solid red;
+}
+/* 
+GENERAL SETTINGS
+*/
+h3, button, label, .btn, li {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+h1, h2, h4 {
+    text-transform: capitalize;
+}
+
+h1 {
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+    padding-bottom: 30px;
+}
+h2, h3 {
+    z-index: 10;
+}
+h2 {
+    width: 250px;
+    font-size: 2rem;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+.btn {
+    background: transparent;
+    padding: 20px;
+    border: 1px solid white;
+    font-weight: bold;
+    &:hover {
+        box-shadow: inset 0 0 0 40px $color1;
+        color: $color2;
+        border: 1px solid $color1;
+        cursor: pointer;
+        a, i {
+            color: $color2;
+        }
+    }
+    &_light {
+        background: white;
+        color: $color2;
+        &:hover {
+            color: $color2;
+            background: $color1;
+        }
+    }
+}
+a {
+    text-decoration: none;
+}
+/* 
+EO GENERAL SETTINGS
+*/
